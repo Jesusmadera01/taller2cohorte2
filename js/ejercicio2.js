@@ -68,18 +68,18 @@ fila1.style.display = 'flex';
 fila1.style.width = '100%'; 
 
 
-fila1.appendChild(crearColumna('Hamburger Food ', '../recursos/imagen1.png'));
-fila1.appendChild(crearColumna('Bat Ball', '../recursos/imagen2.png'));
-fila1.appendChild(crearColumna('Cuda Portfolio', '../recursos/imagen3.png'));
+fila1.appendChild(crearColumna('Hamburger Food ', 'https://wpa.aquarius.frisby.com.co/wp-content/uploads/2018/12/Blog1412183-1024x431.png'));
+fila1.appendChild(crearColumna('Bat Ball', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgT7mBkFrfaLzXc-vpWJQRTKTD0JOllx1t4g&usqp=CAU'));
+fila1.appendChild(crearColumna('Cuda Portfolio', 'https://www.bypeople.com/wp-content/uploads/2014/08/cuda-portfolio-flat-web-template.jpg'));
 
 var fila2 = document.createElement('div');
 fila2.className = 'fila'; 
 fila2.style.display = 'flex';
 fila2.style.width = '100%'; 
 
-fila2.appendChild(crearColumna('Dream Theme', '../recursos/imagen4.png'));
-fila2.appendChild(crearColumna('Facebook Login','../recursos/imagen5.png'));
-fila2.appendChild(crearColumna('Fashion Ecommerce', '../recursos/imagen6.png'));
+fila2.appendChild(crearColumna('Dream Theme', 'https://s3.envato.com/files/384035535/homepage_image_20.03.22.jpg'));
+fila2.appendChild(crearColumna('Facebook Login','https://www.lifewire.com/thmb/2BrnZYT-M2-3UGWfvbOV62DJgnI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Copyoffacebook-profile-page-group-1240583-1-bcb8b56774e242ac84b88eaeda4a0156.jpg'));
+fila2.appendChild(crearColumna('Fashion Ecommerce', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF9CMgJOAE0wFHMpvacx5oxnU5ViJJgPvkIw&usqp=CAU'));
 
 
 contenedorPrincipal.appendChild(fila1);
